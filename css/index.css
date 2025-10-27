@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ff40;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+header nav div {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(128, 128, 128, .5);
+    padding: 16px;
+}
