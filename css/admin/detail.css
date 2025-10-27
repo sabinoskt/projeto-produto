@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+main form {
+    padding: 16px;
+    background-color: rgba(0, 255, 0, .3);
+    border-radius: 5px;
+}
+
+main form .campo {
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    padding-left: 5px;
+}
+
+main form input, textarea {
+    border-color: white;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: none;
+}

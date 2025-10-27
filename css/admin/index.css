@@ -2,12 +2,33 @@ body {
     font-family: sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-areas:
+    "head"
+    "content"
+}
+
+#login {
+    background-color: rgba(0, 255, 0, .3);
+}
+
+main article .container-titulo-add {
+    display: flex;
+    align-items: center;
+}
+
+main article h1 {
+    flex: 1;
+    text-align: center;
+}
+
 header nav {
     text-align: right;
     padding: 16px;
 }
 
-header nav a {
+main article div a {
     text-decoration: none;
     color: blue;
 }
@@ -18,7 +39,7 @@ main article {
 }
 
 .table {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 255, 0, .3);
     border-radius: 5px;
     padding: 10px;
 }
@@ -29,9 +50,9 @@ main article div ul {
 
 
 main article div ul li {
-    color: white;
+    color: grey;
     list-style-type: none;
-    border: 1px solid white;
+    border: 1px solid rgba(0, 255, 0, 1);
     margin: 10px;
     padding: 16px;
     text-align: left;
