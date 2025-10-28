@@ -50,6 +50,7 @@ main article div ul {
 
 
 main article div ul li {
+    list-style-position: inside;
     color: grey;
     list-style-type: none;
     border: 1px solid rgba(0, 255, 0, 1);
